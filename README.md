@@ -1,6 +1,8 @@
 # OpenL3
 
-OpenL3 is an open-source Python library for computing deep audio and image embeddings.
+***Same as the orginal marl/openl3 repo but with seperated audio preprocessing/embedding functions to allow for multi-threading so that CPU can handle preprocessing while GPU handles model inference at the same time.***
+
+OpenL3 is an open-source Python library for computing deep audio and image embeddings. 
 
 [![PyPI](https://img.shields.io/badge/python-3.6%2C%203.7%2C%203.8-blue.svg)](https://pypi.python.org/pypi/openl3)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
